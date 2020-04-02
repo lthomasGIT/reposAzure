@@ -1,5 +1,5 @@
 # Install IIS.
-Install-WindowsFeature -name Web-Server -IncludeAllSubFeature -IncludeManagementTools
+Install-WindowsFeature -name "Web-Server" -IncludeAllSubFeature -IncludeManagementTools
 
 # Set the home page.
 Set-Content `
